@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 02:52:39 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0yNDsiMDI6MzU6MDIgIjszNTAz"/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0yNDsiMDI6NTI6MzkgIjsyOzM2MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, soma" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="soma" expression="a+b+c"/>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-07 05:13:08 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDItMDc7IjAzOjUzOjQ2ICI7Mjc0NA=="/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDItMDc7IjA1OjEzOjA4ICI7MTsyODQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="dia" type="Integer" array="False" size=""/>
+            <declare name="salario, inss, ir, salbase, ref, tras" type="Real" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="dia"/>
+            <input variable="salario"/>
+            <input variable="salbase"/>
+            <assign variable="salario" expression="(salbase/30)*dia"/>
+            <assign variable="ref" expression="salario%6"/>
+            <assign variable="tras" expression="salario%1"/>
+            <if expression="salario&lt;=1412">
+                <then>
+                    <assign variable="inss" expression="salario*7.5/100"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="salario&lt;=2666.68">
+                <then>
+                    <assign variable="inss" expression="(salario*9)/100-21.18"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="salario&lt;=4000.03">
+                <then>
+                    <assign variable="inss" expression="(salario*12)/100-101.18"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="salario&gt;=7786.02">
+                <then>
+                    <assign variable="inss" expression="salario-908.86"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="ir" expression="salario-inss"/>
+            <if expression="ir&lt;=2112">
+                <then>
+                    <assign variable="" expression=""/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

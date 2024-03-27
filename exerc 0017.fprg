@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 04:48:50 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0yOTsiMDQ6MTc6MzAgIjszNTEx"/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0yOTsiMDQ6NDg6NTAgIjsxOzM2MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="ano, mes, dia" type="Integer" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="ano"/>
+            <input variable="mes"/>
+            <input variable="dia"/>
+            <assign variable="ano" expression="2024 - ano"/>
+            <output expression="nome" newline="True"/>
+            <output expression="ano" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

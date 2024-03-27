@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 03:03:36 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDItMTk7IjAyOjEyOjQwICI7MjczNQ=="/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDItMTk7IjAzOjAzOjM2ICI7MjsyODUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arq" type="String" array="False" size=""/>
+            <assign variable="arq" expression="&quot;teste.txt&quot;"/>
+            <open expression="arq" mode="read"/>
+            <while expression="!eof()">
+                <read variable="arq"/>
+                <output expression="arq" newline="True"/>
+            </while>
+            <close mode="read"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 04:15:49 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDItMTk7IjAyOjEyOjQwICI7MjczNQ=="/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDItMTk7IjA0OjE1OjQ5ICI7MzsyODU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arq, reg" type="String" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="arq" expression="&quot;teste2.txt&quot;"/>
+            <open expression="arq" mode="write"/>
+            <assign variable="reg" expression="&quot;id,nome,salario,diastrab,inss,bcir,ir,vt,vr,salliq&quot;"/>
+            <write expression="reg"/>
+            <close mode="write"/>
+        </body>
+    </function>
+</flowgorithm>

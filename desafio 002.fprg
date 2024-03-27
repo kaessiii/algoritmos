@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 09:25:52 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDMtMDQ7IjA5OjAwOjEwICI7MjczMQ=="/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDMtMDQ7IjA5OjI1OjUyICI7MTsyODUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angulo" type="Real" array="False" size=""/>
+            <declare name="s, c, t" type="Real" array="False" size=""/>
+            <input variable="angulo"/>
+            <assign variable="s" expression="sen(angulo)"/>
+            <assign variable="c" expression="cos(angulo)"/>
+            <assign variable="t" expression="tan(angulo)"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;angulo =&quot; &amp;angulo&amp;&quot; seno =&quot;&amp; s&amp;&quot; co-seno =&quot;&amp; c&amp;&quot; tangente =&quot;&amp; t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

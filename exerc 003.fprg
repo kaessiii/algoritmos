@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 03:15:09 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0yNDsiMDM6MDM6MzkgIjszNTA5"/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0yNDsiMDM6MTU6MDkgIjsxOzM2MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, DELTA" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <assign variable="DELTA" expression="B^2-4*A*c"/>
+            <output expression="DELTA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

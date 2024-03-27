@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 09:00:02 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDMtMDQ7IjA4OjI3OjI2ICI7Mjc0Ng=="/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtOVDIyOzIwMjQtMDMtMDQ7IjA5OjAwOjAyICI7MTsyODQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="data, resto, ano, mes, dia" type="Integer" array="False" size=""/>
+            <input variable="data"/>
+            <assign variable="ano" expression="data/10000"/>
+            <assign variable="resto" expression="data%10000"/>
+            <assign variable="mes" expression="resto/100"/>
+            <assign variable="resto" expression="resto%100"/>
+            <assign variable="dia" expression="resto"/>
+            <output expression="dia&amp;&quot;/&quot;&amp;mes&amp;&quot;/&quot;&amp;ano" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

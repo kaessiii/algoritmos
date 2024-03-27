@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kaique mamede"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-31 02:58:58 "/>
+        <attribute name="created" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0zMTsiMDI6MjA6MjkgIjszNTA0"/>
+        <attribute name="edited" value="a2FpcXVlIG1hbWVkZTtERVNLVE9QLUZMUDdCMTU7MjAyNC0wMS0zMTsiMDI6NTg6NTggIjsxOzM2MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <for variable="a" start="2" end="9" direction="inc" step="1">
+                <for variable="b" start="1" end="10&#13;&#10;" direction="inc" step="1">
+                    <assign variable="c" expression="a*b"/>
+                    <output expression="c" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
